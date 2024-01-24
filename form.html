@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validatiion with javascript</title>
+</head>
+<body>
+    <h1>
+        form validatiion with javascript
+    </h1>
+
+    <li><a href="https://www.theodinproject.com/lessons/node-path-javascript-form-validation-with-javascript">Odin</a></li>
+
+    <li><a href="https://www.theodinproject.com/lessons/intermediate-html-and-css-form-validation"> form validatiion</a></li>
+
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript">JavaScript to validate forms,Client-side form validation</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max#syntax">Number range validations</a></li>
+
+
+    <p>
+        const email = document.getElementById("mail");  <br>
+
+email.addEventListener("input", (event) => {<br>
+  if (email.validity.typeMismatch) { <br>
+    email.setCustomValidity("I am expecting an email address!");<br>
+  } else {<br>
+    email.setCustomValidity("");<br>
+  } <br>
+}); <br>
+
+    </p>
+
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation">Constraint validation</a></li>
+</body>
+</html>
