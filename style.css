@@ -143,7 +143,7 @@ You can now use async and await in all major browsers.  These new keywords are a
 
 body{
     background-color:white;
-    color: rgb(241, 233, 233);
+    color:black;
 }
 
 li{
@@ -151,4 +151,5 @@ li{
 }
 a{
   text-decoration: none;
+  color: brown;
 }
