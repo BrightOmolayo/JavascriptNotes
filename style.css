@@ -148,6 +148,7 @@ body{
 
 li{
     list-style:disc;
+    list-style-position: inside;
 }
 a{
   text-decoration: none;
