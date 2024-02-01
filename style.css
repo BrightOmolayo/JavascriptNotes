@@ -142,11 +142,13 @@ You can now use async and await in all major browsers.  These new keywords are a
 
 
 body{
-    background-color: rgb(39, 1, 1);
+    background-color:white;
     color: rgb(241, 233, 233);
 }
 
 li{
     list-style:disc;
-    color: burlywood;
+}
+a{
+  text-decoration: none;
 }
